@@ -1,0 +1,17 @@
+{
+    "configurations": [
+    {
+        "name": "Launch via YRAN",
+        "request": "launch",
+        "runtimeArgs": [
+            "build",
+        ],
+        "runtimeExecutable": "yarn",
+        "skipFiles": [
+            "<node_modules>/**"
+        ],
+        "type": "pwa-node"
+    }
+    ]
+    
+}
