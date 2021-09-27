@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "entry",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "modalA": "^1.0.0"
+  }
+}
