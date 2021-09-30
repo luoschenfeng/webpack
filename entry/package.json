@@ -4,7 +4,16 @@
   "version": "1.0.0",
   "main": "dist/main.js",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "modalA": "^1.0.0"
-  }
+    "babel-loader": "^8.2.2",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.0",
+    "module-aa": "^1.0.0",
+    "webpack": "^5.54.0"
+  },
+  "scripts": {
+    "build": "webpack --node-env development"
+  },
+  "sideEffects": true
 }
