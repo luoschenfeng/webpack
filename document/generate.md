@@ -20,7 +20,9 @@
               
                 - runtimeRequirements(globalRuntime)
 
-    - emitAsset
+    - compalition.hooks.processAssets
+
+      - 生成sourceMap
 
 
 
