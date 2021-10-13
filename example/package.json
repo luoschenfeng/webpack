@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.1.0",
+    "file-loader": "^6.2.0",
     "module-aa": "^1.0.0",
     "webpack": "^5.54.0"
   },

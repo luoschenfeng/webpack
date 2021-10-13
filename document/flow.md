@@ -1,3 +1,5 @@
+- 默认的parse库是acorn,替换为其他parse比较麻烦
+
 - compilation
 
   - this.entries
