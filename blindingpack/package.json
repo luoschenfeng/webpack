@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "colorette": "^2.0.10"
+    "colorette": "^2.0.10",
+    "uglify-js": "^3.14.2"
   },
   "scripts": {
     "build": "node ./builder/index.js"
