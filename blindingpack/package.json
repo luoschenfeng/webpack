@@ -8,5 +8,6 @@
   },
   "dependencies": {
     "acorn": "^8.5.0"
-  }
+  },
+  "type": "commonjs"
 }

@@ -1,1 +1,1 @@
-let variableA = 1
+let variableA = 1;

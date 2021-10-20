@@ -2,7 +2,7 @@ const Uglify = require('uglify-js')
 const fs = require('fs')
 const path = require('path')
 
-let data = fs.readFileSync('./src/main.js', 'utf8')
+let data = fs.readFileSync(path.resolve(__dirname, '../src/main.js'), 'utf8')
 
 
 
@@ -14,7 +14,9 @@ let result = Uglify.minify({'//blinding/./src/main.js': data}, {
     },
     mangle: {
         toplevel: true,
-        properties: true
+        properties: {
+            debug: "",
+        }
     },
     compress: {
         // toplevel: true,
@@ -22,6 +24,9 @@ let result = Uglify.minify({'//blinding/./src/main.js': data}, {
         evaluate: true,
         pure_getters: true,
         pure_funcs: true,   
+        global_defs: {
+            DEBUG: true
+        }
     },
 })
 console.log(result)
