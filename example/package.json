@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "entry",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.0",
+    "file-loader": "^6.2.0",
+    "module-aa": "^1.0.0",
+    "webpack": "^5.54.0"
+  },
+  "scripts": {
+    "build": "webpack --node-env development"
+  }
+}

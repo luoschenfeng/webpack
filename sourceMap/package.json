@@ -1,11 +1,3 @@
 {
-  "devDependencies": {
-    "colorette": "^2.0.10"
-  },
-  "scripts": {
-    "build": "node ./builder/index.js"
-  },
-  "dependencies": {
-    "acorn": "^8.5.0"
-  }
+    "type": "module"
 }
