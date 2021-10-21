@@ -64,6 +64,7 @@
 
   - 执行```module.doBuild```的回调，执行模块的this.parser.parse([acorn](https://www.npmjs.com/package/acorn))解析js文件，生成```AST```，遍历```AST```的节点，在HarmonyExportDependencyParserPlugin等插件中解析出模块依赖，加入到```module```中的```dependency```属性中(比如```HarmonyImportSideEffectDependency```类)
 
+  ## [vite](https://github.com/vitejs/vite)
 
   > 如果用[babel](https://babel.docschina.org/)进行js降级转化,babel会先生成源码的[AST](https://github.com/fkling/astexplorer),再用其生成低版本js的[AST](https://github.com/fkling/astexplorer),然后用低版本的[AST](https://github.com/fkling/astexplorer)[babel](https://babel.docschina.org/)，webpack要进行```code -> AST -> AST -> code -> AST -> code ```的过程。
 
