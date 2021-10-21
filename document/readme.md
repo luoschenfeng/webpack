@@ -87,7 +87,7 @@
 
 # 4. [sourceMap](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit?hl=en_US&pli=1&pli=1)
 
-> sourceMap 是生成的文件到源文件的映射，可以更好的debugger， 其算法也不断改进，目前为v3版本。
+> sourceMap 是生成的文件到源文件的映射，可以更好的debugger， 其算法也不断改进，目前为v3版本。可以看一下这个[仓库](https://github.com/Rich-Harris/vlq)的代码，给我解了好多疑惑
 
 > sourceMap 一般是由AST生成，webpack为了实现模块的链接，由[webpack-sources](https://github.com/webpack/webpack-sources#readme)来生成sourceMap
 
